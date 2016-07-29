@@ -5,10 +5,6 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/dubrowsky/saas-themes.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/dubrowsky/saas-modules.git"
         },
         {

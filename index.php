@@ -8,7 +8,7 @@ try {
     $result = fx::router()->route();
 
     if (fx::env('ajax')) {
-        fx::page()->addAssetsAjax();
+        $result = fx::page()->ajaxResponse($result);
     }
 
     echo $result;
@@ -16,7 +16,7 @@ try {
     fx::complete();
 } catch (\Exception $e) {
     fx::log($e, $e->getTraceAsString());
-    if (!fx::env('ajax')) {
+    if (!fx::env('ajax') || fx::env('console')) {
         fx::debug($e, $e->getTraceAsString());
     }
 }
