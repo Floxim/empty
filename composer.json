@@ -5,10 +5,6 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:dubrowsky/saas-modules.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/dubrowsky/floxim-module-typograf.git"
         }
     ],
