@@ -20,8 +20,8 @@
         "floxim/module-media" : "*",
         "floxim/module-shop" : "*",
         "floxim/module-ui" : "*",
-        "floxim/themes-saas" : "*",
         "floxim/modules-saas" : "*",
+        "floxim/theme-basic" : "*",
         "dubr/floxim-module-typograf" : "*"
     }
 }
